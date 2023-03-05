@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <div style="display:none;">
+      <img id="source" src="bmp.png" width="32px" height="32px"/>
+    </div>
+    <title>BMP.io</title>
+    <style>
+         html,
+    body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+    footer {
+      position: fixed; 
+      width: 100%;
+      background-color: black;
+      color: white;
+      bottom: 0;
+      padding: 1%;
+    }
+    </style>
+  </head>
+  <body style='background-image: url("./SLITHER.png")'>
+    <footer>BMPIO</footer>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ <canvas id ="game" width="0" height="0"></canvas>
+ <script src="/script.js"></script>
+ <script src="/controller.js"></script>
+  </body>
+</html>
